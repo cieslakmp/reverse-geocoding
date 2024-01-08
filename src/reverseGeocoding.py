@@ -39,3 +39,4 @@ rgeocode = RateLimiter(locator.reverse, min_delay_seconds=0.001)
 tqdm.pandas()
 df['address'] = df['geom'].progress_apply(rgeocode)
 print(df.head())
+# testing git
